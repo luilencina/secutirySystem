@@ -39,65 +39,6 @@ const message = readText();
     }
 
     // Encontra repetições de padrões no read
-    // function kasiskiRepeat(tam) {
-    //     const repeats = {};    
-       
-    //     for (let i = 0; i <= message.length - tam; i++) {
-    //         const p = message.substring(i, i + tam);
-    //         if (repeats[p]) {
-    //             repeats[p].push(i);
-    //         } else {
-    //             repeats[p] = [i];
-    //         }
-    //     }
-    //     return repeats;
-    // }
-
-    // function kasiskiDist(repeats){
-    //     const dist = [];
-    //     for (const ind of Object.entries(repeats)) {
-    //         if (ind.length > 1) {
-    //             for (let i = 0; i < ind.length; i++) {
-    //                 for (let j = i + 1; j < ind.length; j++) {
-    //                     const arr = ind[1];
-    //                     console.log(arr);
-    //                     for (let a = 0; a < arr.length; a++) {
-    //                         console.log(arr[a + 1] - arr[0]);
-    //                     }
-                      
-    //                     // console.log('----------------------------------------------------');
-    //                     // console.log('JOTA', ind[j]);
-    //                     // console.log('----------------------------------------------------');
-    //                     // console.log('IIIIIIIII', ind[i]);
-    //                     // console.log('----------------------------------------------------');
-    //                     // console.log('PROXIMO E PRIMEIRO', ind[j][j], ' ', ind[j][0]);
-    //                     // console.log('----------------------------------------------------');
-    //                     // console.log('CONTADORES', i, ' ', j);
-    //                     // console.log('----------------------------------------------------');
-    //                     // if (d > 0) {
-    //                     //     dist.push({'sigla': ind[i], 'dist': d});
-    //                     // }
-    //                 }
-    //             }
-    //         }
-    //     }
-    //     return dist;
-    // }
-
-    // // Encontrar possíveis comprimentos de key
-    // function kasiskiComp(keyMin, keyMax){
-    //     const comp = [];
-
-    //     for (let i = keyMin; i <= keyMax; i++) {
-    //         const rep = kasiskiRepeat(i);
-    //         const dis = kasiskiDist(rep);
-    //         if (dis.length > 0) {
-    //             comp.push({ i, dis });
-    //         }
-    //     }
-    //     return comp;
-    // }
-
     function findKey(array) {
        
     }
